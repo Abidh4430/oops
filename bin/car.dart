@@ -6,27 +6,20 @@ class Car{
 
   
 
-  void calledStart(){
-    print("Car Started");
-    print("Name : $name");
-    print("Color : $color");
-    print("Number of Seats : $numberofseats");
-
-    
-    
+  void Start(){
+    print("$name car started");
    
   }
 }
 void main(){
   Car car=Car();
-   Car obj=Car();
-    obj.name="innova";
-    obj.color="blue";
-    obj.numberofseats=10;
+    car.name="innova";
+    car.color="blue";
+    car.numberofseats=10;
     
     
 
-    obj.calledStart();
+    car.Start();
 
     
 }
