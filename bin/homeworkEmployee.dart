@@ -12,8 +12,7 @@ void setName(String name){
 
 void main(){
   Employee emp=Employee();
-  emp._name="Raj";
-  print("Employee name : ${emp._name}");
+ 
 
   emp.setName("Rahul");
   print("New employee name : ${emp.getName()}");
